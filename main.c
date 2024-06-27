@@ -6,17 +6,17 @@
 int main(int argc, char *argv[]) {
 	
 	int vdato[6]={0,0,0,0,0,0};
-	c=0;
+	int c=0;
 	
-	for(c=0;c<=5, c++);
+	for(c=0;c<=5;c++)
 	{
 	  printf("ingrese la posicion %d\n", c);
-	  scandf("%d",%vdato[c]);
+	  scandf("%d",&vdato[c]);
 	}
 	
-	for(c=5;c>=0,c--)
+	for(c=5;c>=0;c--)
 	{
-	  printf("ingrese la posicion %d\n", c);
+	  printf("los numeros de la posicion %d\n son %d\n", c,vdato[c]);
 	}
 	return 0;
 }
